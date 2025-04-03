@@ -8,7 +8,7 @@ An AI combined  with IOT devices that detect drowsiness, drunk and alert you
 - ### Drowsiness_ai_model -
 This project implements a deep learning model to classify whether an eye is open or closed using TensorFlow and MobileNet. The model is trained on an eye image dataset and can be used for applications like drowsiness detection, eye-tracking, and biometric authentication.
 
-📌  Features
+📌 Features
 
 Pretrained MobileNet model for efficient feature extraction.
 Binary classification (open vs. closed eyes).
@@ -39,3 +39,25 @@ After training for 10 epochs, the model achieves binary classification accuracy 
 Using data augmentation
 Training with more images
 Fine-tuning MobileNet layers
+
+- ### Drunk_ai_model -
+
+Overview
+This project implements a Random Forest Classifier to determine alcohol intoxication levels based on sensor readings. The model is trained to classify whether a person is sober (0) or drunk (1).
+
+How It Works
+Data Collection: A sample dataset is created with sensor values (e.g., alcohol concentration levels).
+
+📌 Training: A Random Forest Classifier with 100 decision trees is trained to learn the patterns.
+Model Saving: The trained model is saved using joblib for later use.
+
+🛠 Evaluation:
+
+A confusion matrix is plotted to visualize classification accuracy.
+The accuracy score and classification report show the model’s performance.
+
+An ROC curve is generated to evaluate how well the model differentiates between sober and drunk states.
+
+🎯 Results & Improvements
+Provides an accuracy score and a visual representation of performance.
+Can be improved by collecting more real-world data, tuning hyperparameters, or using different machine learning models.
