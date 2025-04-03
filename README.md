@@ -8,7 +8,7 @@ An AI combined  with IOT devices that detect drowsiness, drunk and alert you
 - ### Drowsiness_ai_model -
 This project implements a deep learning model to classify whether an eye is open or closed using TensorFlow and MobileNet. The model is trained on an eye image dataset and can be used for applications like drowsiness detection, eye-tracking, and biometric authentication.
 
-📌 ### Features
+📌  Features
 Pretrained MobileNet model for efficient feature extraction.
 Binary classification (open vs. closed eyes).
 Dataset preprocessing including normalization and resizing.
@@ -21,8 +21,11 @@ pip install tensorflow numpy opencv-python matplotlib scikit-learn
 
 📂 Dataset
 Prepare a dataset with two folders inside a main directory:
-dataset/
+
+dataset
+
     ├── close_eye/  # Images of closed eyes
+    |
     ├── open_eye/   # Images of open eyes
 
 Ensure that all images are in .png, .jpg, or .jpeg format.
