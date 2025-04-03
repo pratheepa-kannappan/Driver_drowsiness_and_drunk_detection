@@ -49,14 +49,12 @@ How It Works
 Data Collection: A sample dataset is created with sensor values (e.g., alcohol concentration levels).
 
 📌 Training: A Random Forest Classifier with 100 decision trees is trained to learn the patterns.
-Model Saving: The trained model is saved using joblib for later use.
+    Model Saving: The trained model is saved using joblib for later use.
 
 🛠 Evaluation:
-
-A confusion matrix is plotted to visualize classification accuracy.
-The accuracy score and classification report show the model’s performance.
-
-An ROC curve is generated to evaluate how well the model differentiates between sober and drunk states.
+- A confusion matrix is plotted to visualize classification accuracy.
+- The accuracy score and classification report show the model’s performance.
+- An ROC curve is generated to evaluate how well the model differentiates between sober and drunk states.
 
 🎯 Results & Improvements
 Provides an accuracy score and a visual representation of performance.
